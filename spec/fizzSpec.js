@@ -24,5 +24,10 @@ describe("Fizz", function() {
             var result = fizz.ParseArray(testInts);
             expect(result).toMatch(/Fizz/);
         })
+
+        it("returns 'Fizz' for all numbers divisible by 3", function() {
+            var result = fizz.ParseArray(testInts);
+            expect(result).toEqual([1, 'Fizz', 5, 7, 'Fizz']);
+        })
     })
 });
