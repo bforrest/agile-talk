@@ -14,4 +14,8 @@ https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/
 
 
 "All the languages"
+
 http://rosettacode.org/wiki/FizzBuzz
+
+
+https://www.hackerrank.com/challenges/fizzbuzz
