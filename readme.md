@@ -6,3 +6,12 @@ User Story (Mad Libs):
     As A ________
     I want to ________
     So that ________
+ 
+https://en.wikipedia.org/wiki/Fizz_buzz 
+ 
+Interesting progression to "The final implementation represents a veritable explosion of complexity":
+https://www.tomdalling.com/blog/software-design/fizzbuzz-in-too-much-detail/
+
+
+"All the languages"
+http://rosettacode.org/wiki/FizzBuzz
