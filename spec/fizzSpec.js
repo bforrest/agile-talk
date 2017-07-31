@@ -13,4 +13,16 @@ describe("Fizz", function() {
         expect(result).toEqual('Fizz');
     })
 
+    describe("given an array of integers", function() {
+        var testInts;
+
+        beforeEach(function() {
+            testInts = [1, 3, 5, 7, 9];
+        })
+
+        it("matches 3 with 'Fizz'", function() {
+            var result = fizz.ParseArray(testInts);
+            expect(result).toMatch(/Fizz/);
+        })
+    })
 });
