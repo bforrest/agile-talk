@@ -1,7 +1,7 @@
 function FizzParser() {}
 
 FizzParser.prototype.Parse = function(value) {
-    if (value === 3)
+    if (value % 3 === 0)
         return 'Fizz';
     return value;
 }
